@@ -5,3 +5,136 @@ easrdtjiokp
 wreytrutiyoupio[p
 zcvbnmb,n,.
 divu bhai
+
+
+H:\Anything>git init
+Initialized empty Git repository in H:/Anything/.git/
+
+H:\Anything>git add .
+
+H:\Anything>git commit -m "first file"
+[master (root-commit) 76dc5ee] first file
+ 1 file changed, 3 insertions(+)
+ create mode 100644 file1.txt
+
+H:\Anything>git status
+On branch master
+nothing to commit, working tree clean
+
+H:\Anything>git remote add origin https://github.com/tripathick/practiceDel.git
+
+H:\Anything>git status
+On branch master
+nothing to commit, working tree clean
+
+H:\Anything>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 239 bytes | 239.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tripathick/practiceDel.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+H:\Anything>git add .
+
+H:\Anything>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file2.txt
+
+
+H:\Anything>git commit -m "Second file"
+[master 7540b5a] Second file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2.txt
+
+H:\Anything>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+H:\Anything>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 286 bytes | 286.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tripathick/practiceDel.git
+   76dc5ee..7540b5a  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+H:\Anything>git add file3.txt
+
+H:\Anything>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file3.txt
+
+
+H:\Anything>git commit -m "third file"
+[master 6ced040] third file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file3.txt
+
+H:\Anything>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+H:\Anything>git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 153.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tripathick/practiceDel.git
+   7540b5a..6ced040  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+H:\Anything>git add file1.txt
+
+H:\Anything>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   file1.txt
+
+
+H:\Anything>git commit -m "change file 1"
+[master 01efa11] change file 1
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+H:\Anything>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+H:\Anything>git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 385 bytes | 192.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tripathick/practiceDel.git
+   6ced040..01efa11  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+H:\Anything>
